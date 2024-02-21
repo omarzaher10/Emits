@@ -1,0 +1,32 @@
+.images {
+    width: 11rem;
+    height: 4.3rem;
+}
+
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+
+.order:hover .icon {
+
+    width: 9rem;
+    height: 9rem;
+
+}
+
+/* .order {
+
+    transition: all 1s;
+}
+
+
+.order:hover {
+
+    background-color: rgb(204, 202, 202);
+} */

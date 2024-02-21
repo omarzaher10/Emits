@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manfacturing</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="manfacturing.css">
+    </head>
+
+    <body>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-black ">
+            <div class="container-fluid">
+                <img src="images/final .png" class="images py-0 my-0" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  my-0">
+
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" href="#" id="NewProduct">New Product</a>
+                        </li>
+
+                        <li class="nav-item me-5 d-flex align-items-center">
+                            <a class="nav-link" href="#" id="Massages">Massages</a>
+                            <i class="fa-solid fa-bell fs-5 text-danger"></i>
+                        </li>
+
+                        <li class="nav-item me-3">
+                            <a href="index.html" id="logOutBtn"><button class="btn btn-danger ">Log Out</button></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-5 d-block" id="newProductPage">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <label for="industry" class="me-3">Industry :</label>
+
+                        <select class="form-select w-25" aria-label="Default select example" id="industry">
+                            <option>.............</option>
+                            <option>Food & Beverages</option>
+                            <option>Clothes</option>
+                            <option>Vechiles Part & Accessories</option>
+                            <option>Electronics</option>
+                            <option>Beauty</option>
+                            <option>Furniture</option>
+                            <option>Home Appliances</option>
+                            <option>Agriculture</option>
+                            <option>Rubber and Plastic</option>
+                            <option>renewable energy</option>
+                            <option>construction </option>
+                            <option>chemicals </option>
+                        </select>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <label for="Type" class="me-4 pe-2 ">Type :</label>
+
+                        <select class="form-select w-25 ms-2" aria-label="Default select example" id="Type">
+                            <option>.............</option>
+                            <option>Bakery & Pastry</option>
+                            <option>Cheese</option>
+                            <option>Cooking</option>
+                            <option>Fruit & Vegteables</option>
+                            <option>Meat</option>
+                            <option>Chicken & Poultry</option>
+                            <option>Frozen Food</option>
+                            <option>Milk</option>
+                            <option>Beverages</option>
+                            <option>Coffee & Tea</option>
+                            <option>Chocolates & Candy</option>
+                            <option>Chips & Crackers</option>
+                            <option>Skin & Body Care </option>
+                            <option>Laundry </option>
+                        </select>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <label for="Quantity" class="me-2 pe-1">Quantity :</label>
+                        <input type="number" class="form-control w-50" placeholder="Enter Your Quantity By KG"
+                            id="Quantity">
+
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <label for="prod.line" class="me-2">Prod.Line :</label>
+                        <input type="text" class="form-control w-50" placeholder="Production Line" id="prod.line">
+
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <label for="Duration" class="me-2">Duration :</label>
+                        <input type="date" class="form-control w-50" id="Duration">
+
+
+                    </div>
+
+                    <textarea name="" id="" cols="20" rows="9" placeholder="Description...."
+                        class="form-control mb-4"></textarea>
+
+                    <button class="btn btn-success">Submit</button>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="overflow-hidden">
+
+                        <div class="img position-relative">
+
+                            <img src="images/ey-aerial-view-oil-terminal-is-industrial-facility-for-storage-tank.jpg.rendition.450.300.jpg"
+                                alt="" class="w-100">
+
+                            <div class="display"></div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5 d-none" id="massagesPage">
+
+            <h1 class="mb-4">offers</h1>
+
+            <div class="form-grouping d-flex  align-items-center mb-4">
+
+                <label for="Search" class="me-3">Search :</label>
+                <input type="text" placeholder="Search" class="form-control w-50" id="Search">
+
+            </div>
+
+            <div class="mb-5">
+
+                <label for="" class="me-4">SortedBy :</label>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Buyer"
+                        value="option1" />
+                    <label class="form-check-label" for="inlineRadio1">Price</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Seller"
+                        value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">Nearest</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Manfacturing"
+                        value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">Time</label>
+                </div>
+
+            </div>
+
+
+            <div class="border-bottom  border-4 py-4 offers mb-3">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-2">
+                        <img src="images/OIP (1).jpg" alt="" class="icon">
+                    </div>
+
+                    <div class="col-md-10">
+
+                        <h5 class="mb-4">Name: Faragalla</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Workers : 3000</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Type Of Machine: Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>time: 2 weeks</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Price: 300000</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-center">
+
+                            <h6 class="me-4">Extra Services :</h6>
+
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Buyer"
+                                    value="option1" />
+                                <label class="form-check-label" for="inlineRadio1">Quality Control</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Seller"
+                                    value="option2" />
+                                <label class="form-check-label" for="inlineRadio2">Inventory Service</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions"
+                                    id="Manfacturing" value="option2" />
+                                <label class="form-check-label" for="inlineRadio2">Transportation</label>
+                            </div>
+
+                        </div>
+
+                        <p class="mt-2">Percentage: 10%</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-success">Accept</button>
+                        <button class="btn btn-danger">Reject</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="border-bottom border-top border-4 py-4 offers mb-3">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-2">
+                        <img src="images/OIP (1).jpg" alt="" class="icon">
+                    </div>
+
+                    <div class="col-md-10">
+
+                        <h5 class="mb-4">Name: Faragalla</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Workers : 3000</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Type Of Machine: Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>time: 2 weeks</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Price: 300000</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-center">
+
+                            <h6 class="me-4">Extra Services :</h6>
+
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Buyer"
+                                    value="option1" />
+                                <label class="form-check-label" for="inlineRadio1">Quality Control</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Seller"
+                                    value="option2" />
+                                <label class="form-check-label" for="inlineRadio2">Inventory Service</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions"
+                                    id="Manfacturing" value="option2" />
+                                <label class="form-check-label" for="inlineRadio2">Transportation</label>
+                            </div>
+
+                        </div>
+
+                        <p class="mt-2">Percentage: 10%</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-success">Accept</button>
+                        <button class="btn btn-danger">Reject</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="border-top border-4 py-4 offers mb-3">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-2">
+                        <img src="images/OIP (1).jpg" alt="" class="icon">
+                    </div>
+
+                    <div class="col-md-10">
+
+                        <h5 class="mb-4">Name: Faragalla</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Workers : 3000</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Type Of Machine: Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>time: 2 weeks</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Price: 300000</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-center">
+
+                            <h6 class="me-4">Extra Services :</h6>
+
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Buyer"
+                                    value="option1" />
+                                <label class="form-check-label" for="inlineRadio1">Quality Control</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Seller"
+                                    value="option2" />
+                                <label class="form-check-label" for="inlineRadio2">Inventory Service</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="inlineRadioOptions"
+                                    id="Manfacturing" value="option2" />
+                                <label class="form-check-label" for="inlineRadio2">Transportation</label>
+                            </div>
+
+                        </div>
+
+                        <p class="mt-2">Percentage: 10%</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-success">Accept</button>
+                        <button class="btn btn-danger">Reject</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="manfacturing.js"></script>
+
+    </body>
+
+</html>

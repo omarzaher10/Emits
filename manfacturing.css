@@ -1,0 +1,55 @@
+.images {
+    width: 11rem;
+    height: 4.3rem;
+}
+
+.display {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+.img:hover .display {
+    opacity: 0.5;
+
+}
+
+.img {
+    transition: all 0.5s;
+}
+
+.img:hover {
+    scale: 1.5;
+}
+
+.icon {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    transition: all 1s;
+
+
+}
+
+
+.offers:hover .icon {
+    border-radius: 0%;
+}
+
+.offers {
+    transition: all 1s;
+}
+
+.offers:hover {
+
+    border-color: rgb(90, 90, 90) !important;
+
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-check-input[type=radio] {
+
+    transition: all 0.5s;
+}
+
+
+
+.form-check-input[type=radio]:hover {
+
+    border-color: blue;
+}
+
+
+.form {
+
+    width: 65%;
+    margin: auto;
+}
+
+
+.login {
+
+    box-shadow: 0px 10px 40px -7px rgb(0 0 0);
+
+}
+
+
+.loginform {
+    width: 40%;
+    height: 50%;
+}
+
+
+.images {
+    width: 11rem;
+    height: 4.3rem;
+}
+
+.images-form {
+
+    .images {
+        width: 11rem;
+        height: 5.5rem;
+    }
+
+}

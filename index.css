@@ -1,0 +1,225 @@
+.images {
+    width: 11rem;
+    height: 4.3rem;
+}
+
+#Home {
+    background-image: url(images/O1CN01WhUxZ7288l4TC07G0_!!6000000007888-0-tps-1920-400.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contentt {
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+/* #Services {
+    background-color: rgb(241, 241, 241);
+} */
+
+.content {
+    transition: all 1s;
+}
+
+.content i {
+    transition: 1s all;
+}
+
+.content:hover {
+    background: rgb(101, 26, 26);
+}
+
+.content:hover p {
+    transition: all 1s;
+}
+
+.content:hover p {
+    color: white;
+}
+
+.content h3 {
+    transition: all 1s;
+}
+
+.content:hover h3 {
+    color: white;
+}
+
+.content:hover i {
+    color: white;
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgb(237, 233, 233);
+
+}
+
+.parag {
+    transition: all 0.3s;
+}
+
+.cat:hover .parag {
+
+    color: red;
+}
+
+
+.cat img {
+    transition: all 1s;
+}
+
+
+.cat:hover img {
+
+    transform: rotate(360deg);
+}
+
+
+.slider::after {
+
+    content: "";
+    animation-name: h3-slider;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes h3-slider {
+
+    1% {
+        content: "S|";
+    }
+
+    3% {
+        content: "Sp|";
+    }
+
+    5% {
+        content: "Spr|";
+    }
+
+    7% {
+        content: "Spre|";
+    }
+
+    9% {
+        content: "Sprea|";
+    }
+
+    11% {
+        content: "Spread|";
+    }
+
+    13% {
+        content: "Spread L|";
+    }
+
+    15% {
+        content: "Spread Li|";
+    }
+
+    17% {
+        content: "Spread Lik|";
+    }
+
+    19% {
+        content: "Spread Like|";
+    }
+
+    21% {
+        content: "Spread Like a|";
+    }
+
+    23% {
+        content: "Spread Like a G|";
+    }
+
+    25% {
+        content: "Spread Like a Ga|";
+    }
+
+    27% {
+        content: "Spread Like a Gas|";
+    }
+
+    29% {
+        content: "Spread Like a Gas|";
+    }
+
+    31% {
+        content: "Spread Like a Gas|";
+    }
+
+    33% {
+        content: "Spread Like a Gas|";
+    }
+
+    54% {
+        content: "Spread Like a Gas|";
+    }
+
+    57% {
+        content: "Spread Like a Ga|";
+    }
+
+    59% {
+        content: "Spread Like a G|";
+    }
+
+    63% {
+        content: "Spread Like a|";
+    }
+
+    69% {
+        content: "Spread Like|";
+    }
+
+    72% {
+        content: "Spread Lik|";
+    }
+
+    75% {
+        content: "Spread Li|";
+    }
+
+    78% {
+        content: "Spread L|";
+    }
+
+    81% {
+        content: "Spread|";
+    }
+
+    83% {
+        content: "Sprea|";
+    }
+
+    86% {
+        content: "Spre|";
+    }
+
+    89% {
+        content: "Spr|";
+    }
+
+    92% {
+        content: "Sp|";
+    }
+
+    95% {
+        content: "S|";
+    }
+
+    100% {
+        content: "|";
+    }
+}

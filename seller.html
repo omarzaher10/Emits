@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seller</title>
+        <link rel="stylesheet" href="seller.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+
+    <body>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-black ">
+            <div class="container-fluid">
+                <img src="images/final .png" class="images py-0 my-0" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  my-0">
+
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" href="#" id="NewProduct">New Product</a>
+                        </li>
+
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="#" id="MyProducts">My Products</a>
+                        
+                        </li>
+
+                        <li class="nav-item me-3">
+                            <a href="index.html" id="logOutBtn"><button class="btn btn-danger ">Log Out</button></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="container py-5">
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <h1 class="mb-5">Add New Product</h1>
+
+                    <div class="form-grouping d-flex align-items-center mb-4">
+
+                        <label for="productPhoto" class="me-3">Upload Product Photos :</label>
+                        <input type="file" class="form-control w-50" id="productPhoto">
+                    </div>
+
+                    <div class="d-flex align-items-center mb-4">
+
+                        <label for="industry" class="me-3">Industry :</label>
+
+                        <select class="form-select w-25" aria-label="Default select example" id="industry">
+                            <option>.............</option>
+                            <option>Food & Beverages</option>
+                            <option>Clothes</option>
+                            <option>Vechiles Part & Accessories</option>
+                            <option>Electronics</option>
+                            <option>Beauty</option>
+                            <option>Furniture</option>
+                            <option>Home Appliances</option>
+                            <option>Agriculture</option>
+                            <option>Rubber and Plastic</option>
+                            <option>renewable energy</option>
+                            <option>construction </option>
+                            <option>chemicals </option>
+                        </select>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-4">
+
+                        <label for="Type" class="me-1">Category :</label>
+
+                        <select class="form-select w-25 ms-2" aria-label="Default select example" id="Type">
+                            <option>.............</option>
+                            <option>Bakery & Pastry</option>
+                            <option>Cheese</option>
+                            <option>Cooking</option>
+                            <option>Fruit & Vegteables</option>
+                            <option>Meat</option>
+                            <option>Chicken & Poultry</option>
+                            <option>Frozen Food</option>
+                            <option>Milk</option>
+                            <option>Beverages</option>
+                            <option>Coffee & Tea</option>
+                            <option>Chocolates & Candy</option>
+                            <option>Chips & Crackers</option>
+                            <option>Skin & Body Care </option>
+                            <option>Laundry </option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-grouping d-flex align-items-center mb-4">
+
+                        <label for="ProductName" class="me-4 pe-1">Name :</label>
+                        <input type="text" class="form-control w-50" id="ProductName"
+                            placeholder="Enter Your Product Name">
+                    </div>
+
+                    <div class="form-grouping d-flex align-items-center mb-4">
+                        <label for="Quantity" class="me-2">Quantity :</label>
+                        <input type="number" class="form-control w-50" id="Quantity" placeholder="Enter Your Quantity">
+                    </div>
+
+                    <div class="form-grouping d-flex align-items-center mb-4">
+                        <label for="Price" class="me-4 pe-2">Price :</label>
+                        <input type="number" class="form-control w-50" id="Price" placeholder="Enter Your Price">
+                    </div>
+
+                    <div class="form-grouping d-flex align-items-center mb-4">
+                        <label for="Percentage" class="me-2">Percentage :</label>
+                        <input type="number" class="form-control w-50" id="Percentage"
+                            placeholder="Percentage From Selling">
+                    </div>
+
+                    <div class="form-grouping d-flex align-items-center mb-4">
+                        <label for="Percentage" class="me-2">Description:</label>
+                        <textarea name="" id="Percentage" cols="30" rows="10" class="form-control"></textarea>
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="overflow-hidden">
+
+                        <div class="img position-relative">
+
+                            <img src="images/ecommerce-3640321_1280-1024x438.jpg" alt="" class="w-100 h-100">
+
+                            <div class="display"></div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="seller.js"></script>
+
+    </body>
+
+</html>
